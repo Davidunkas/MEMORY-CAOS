@@ -30,11 +30,11 @@ export const Card: React.FC<CardProps> = ({ card, onClick, disabled }) => {
       >
         {/* Card Back (Face Down) - Shows Game Logo */}
         <div 
-          className="absolute inset-0 backface-hidden rounded-xl bg-indigo-500 border-4 border-indigo-600 border-b-[6px] flex flex-col items-center justify-center p-2 box-border"
+          className="absolute inset-0 backface-hidden rounded-xl bg-orange-500 border-4 border-orange-600 border-b-[6px] flex flex-col items-center justify-center p-2 box-border"
           style={{ backfaceVisibility: 'hidden' }}
         >
           <div className="flex flex-col items-center justify-center">
-            <div className="bg-indigo-400/50 p-2 rounded-full mb-1">
+            <div className="bg-orange-400/50 p-2 rounded-full mb-1">
               <Shuffle className="w-8 h-8 text-white" strokeWidth={3} />
             </div>
             <span className="text-white font-black text-xs tracking-widest opacity-90">CAOS</span>
